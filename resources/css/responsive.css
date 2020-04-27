@@ -1,0 +1,296 @@
+@media only screen and (max-width:1200px){
+    body{
+        height: 70vh;
+    }
+    header{
+        height: 55vh;
+    }
+    .row{
+      margin: 0 1.5rem;
+    }
+   
+}
+@media only screen and (max-width:1024px){
+    
+    .main-nav{
+        display:none;
+    }
+    nav .sticky {
+        position: hidden;
+    }
+    .mobile-menu{
+        
+        display: block;
+    }
+    .mobile-menu span{
+      display: block;
+    }
+    header{
+        height: 66vh;
+    }
+    .row{
+      margin: 0 1.5rem;
+    }
+    header{
+        padding-bottom: 3rem;
+    }
+    .hero-text-box{
+        padding-bottom:  8rem;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+    .mamun-img{
+        margin-top: 13rem;
+        margin-left: 11rem;
+        padding: 2rem 0;
+        height: 28rem;
+        width: 28rem;
+    }
+    .portfolio .span_1_of_3{
+        width: 49.5%;
+    }
+     .wrap h3{
+        line-height: 3rem;
+       
+    }
+}
+
+@media only screen and (max-width:980px){
+   
+    .latest-work .span_1_of_3{
+        width: 45%;
+        margin-right: 2%;
+        margin-left: 1%;
+    }
+    
+}
+
+@media only screen and (max-width:768px){
+    header{
+        width: 100%;
+    }
+    .row{
+        width: 100%;
+        margin-right: 0;
+    }
+    .hero-text-box h2{
+        font-size: 3rem;
+    }
+    .hero-text-box .btn-hero{
+       line-height: 0.1rem;
+        display: inline-block;
+        padding: .2rem .4rem;
+    }
+    .mamun-img{
+        margin-left: .1rem;
+        padding-right: 2rem;
+    }
+    .second-option .span_1_of_4{
+        width: 45%;
+        margin: .2% 4%;
+    }
+    .portfolio .span_1_of_3{
+        width: 100%;
+        margin-right: 2%;
+        text-align: center;
+    }
+    .portfolio .video-tag{
+        width: 50rem;
+    }
+    .contact .span_1_of_3{
+        width: 49.2%;
+    }
+    .gallery .span_1_of_3{
+        width: 49.2%;
+    }
+      .about .span_1_of_4{
+        width: 27.5%;
+          margin-right: 2%;
+    }
+    .sticky .mobile-menu span{
+        padding-right: 6rem;
+    }
+    .sticky .logo{
+        padding-left: 2rem;
+        margin-top: 2rem;
+    }
+
+
+}
+@media only screen and (max-width:480px){
+        header{
+        width: 100%;
+        padding: 10rem 2rem;
+            height: 65vh;
+    }
+    .row{
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    header .span_1_of_2{
+        width: 40%;
+    }
+    .hero-text-box h2{
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .hero-text-box .btn{
+        display: inline-block;
+        margin:1rem .2rem;
+        margin-top: .5rem;
+    }
+    .mamun-img{
+        margin-top: 1rem;
+    }
+   
+    .second-option h2{
+        font-size: 2.5rem;
+    }
+    .second-option .box{
+        margin-bottom: 2rem;
+    }
+    .latest-work h2{
+        font-size: 2.5rem;
+    }
+    .skill h2{
+        font-size: 2.5rem;
+    }
+    .portfolio h2{
+        font-size: 2.5rem;
+    }
+    .portfolio .video-tag{
+        text-align: left;
+    }
+    .contact h2{
+        font-size: 2.5rem;
+    }
+    .contact .span_1_of_3{
+        width: 80%;
+        text-align: center;
+    }
+    .gallery h2{
+    font-size:2.5rem;
+    }
+    .gallery .span_1_of_3{
+        width: 80%;
+        text-align: center;
+    }
+    .about h2{
+        font-size: 2.5rem;
+    }
+      .about .span_1_of_4{
+        width: 80%;
+          margin-right: 2%;
+          text-align: center;
+    }
+}
+
+@media only screen and (max-width:412px){
+    .second-option .box h2{
+        font-size: 2rem;
+        text-align: left;
+    }
+    .portfolio .span_1_of_3{
+        width: 80%;
+        margin-left: -3.5rem;
+    }
+    .portfolio .video-tag{
+        text-align: left;
+    }
+    body h2{
+        font-size: 1.2rem;
+    }
+    .mamun-img{
+        height: 16rem;
+        width: 16rem;
+        padding: 1rem .5rem;
+    }
+
+}
+@media only screen and (max-width:414px){
+    .second-option .box h2{
+        font-size: 2rem;
+        text-align: left;
+    }
+    .portfolio .span_1_of_3{
+        width: 80%;
+        margin-left: -3.5rem;
+    }
+    .portfolio .video-tag{
+        text-align: left;
+    }
+    body h2{
+        font-size: 1.2rem;
+    }
+    .mamun-img{
+        height: 16rem;
+        width: 16rem;
+        padding: 1rem .5rem;
+    }
+
+}
+@media only screen and (max-width:375px){
+    .second-option .box h2{
+        font-size: 2rem;
+        text-align: left;
+    }
+    .portfolio .span_1_of_3{
+        width: 90%;
+        margin-left: -3.5rem;
+    }
+    .portfolio .video-tag{
+        text-align: left;
+    }
+    body h2{
+        font-size: 1.2rem;
+    }
+    .mamun-img{
+        height: 16rem;
+        width: 16rem;
+        padding: 1rem .5rem;
+    }
+
+}
+
+@media only screen and (max-width:360px){
+    header{
+        height: 70vh;
+    }
+    header h2{
+        font-size: 1.5rem;
+        
+    }
+    header .hero-text-box h2{
+        margin-top: -2.5rem;
+    }
+    .latest-work .span_1_of_3{
+        width: 80%;
+        margin-bottom: 2rem;
+        text-align: center;
+        padding-left: 1rem;
+    }
+    .portfolio .video-tag{
+        text-align: left;
+        margin-left: -6rem;
+    }
+    .second-option .span_1_of_4{
+        width: 80%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
